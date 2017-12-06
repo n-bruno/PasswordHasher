@@ -1,2 +1,2 @@
 # PasswordHasher
-A C# Class to hash a pasword with a salt
+A C# class to hash a password with a salt.
