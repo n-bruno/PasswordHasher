@@ -1,7 +1,6 @@
 ﻿/**   
-* Project   :       Term Project   
-* Names     :       Nick Bruno
-*/
+ * Author     :       Nick Bruno
+ */
 
 
 using System;
