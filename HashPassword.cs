@@ -10,9 +10,9 @@ namespace Util
 {
     public static class hashPassword
     {
-        public static void hashPass(string pass, out string salt, out string hashedPass)
+        public static void hashPass(string pass, int saltSize, out string salt, out string hashedPass)
         {
-            salt = generateSalt(16);
+            salt = generateSalt(saltSize);
             hashedPass = hashPass(pass, salt);
         }
 
